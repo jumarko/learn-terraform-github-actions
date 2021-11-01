@@ -12,10 +12,10 @@ terraform {
   required_version = "~> 1.0"
 
   backend "remote" {
-    organization = "cloud-guru-terraform-course-demo"
+    organization = "REPLACE_ME"
 
     workspaces {
-      name = "cloud-guru-demo-github-actions"
+      name = "REPLACE_ME"
     }
   }
 }
